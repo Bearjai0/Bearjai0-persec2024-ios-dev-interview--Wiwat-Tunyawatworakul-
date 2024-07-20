@@ -11,11 +11,6 @@ func SortDesc(_ s: Int) -> Any {
     var cast = String(s)
     var charr = Array(cast)
     var rv = charr.sorted(by: >)
-//    var total = ""
-//
-//    for txt in rv {
-//        total += String(txt)
-//    }
     var conv = String(rv)
     
     return conv
